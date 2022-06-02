@@ -31,12 +31,12 @@ The application will use OpenCV Technology to identify faces of criminals in the
 ## How to get started
 ***
 ### Prerequisites
-- Python and pip must be installed
-- MySQL must be installed
+- Python and pip must be installed.
+- MySQL must be installed.
 
 ### Now, follow the following steps
-- Download the project from github
-- Write the following commands in command prompt or trerminal of your choice
+- Download the project from github.
+- Write the following commands in command prompt or trerminal of your choice :
  ```
   pip install Pillow
   pip install twilio
@@ -45,13 +45,31 @@ The application will use OpenCV Technology to identify faces of criminals in the
   pip install opencv-contrib-python
   pip install tk
 ```
-  *Make sure opencv-python and opencv-contrib-python have same versions, if not then download same versions otherwise the code will not work
-  *Make sure, you have all the other python libraries installed, if not, then install them using pip
+  *Make sure opencv-python and opencv-contrib-python have same versions, if not then download same versions otherwise the code will not work.
+  *Make sure, you have all the other python libraries installed, if not, then install them using pip.
 - Now, open MySQL Command Line, enter your password and write the following commands:
 ```
   create database criminaldb;
-  create
+  create table criminaldata(id int primary key auto_increment, `name` varchar(20) not null, `father name` varchar(25),`mother name` varchar(25),
+  gender varchar(6) not null, dob varchar(10), `blood group` varchar(5), `identity mark` varchar(30) not null, nationality varchar(15) not null,
+  `religion` varchar(15) not null, `crimes` text not null);
 ```
+- Then, to check the data in your database: 
+  ```
+  select * from criminaldata;
+  ```
+- Now, open dbHandler.py file and enter username and password of your MySQL Server in both the functions : insertData() as well as retrieveData() to connect your application to MySQL successfully.
+- Create an account on twilio for free, and then you will be provided with : 
+  - account_sid
+  - auth_token
+  - a phone number
+- Enter these details along with your own phone number in sendMsg() function in twilioMsg.py file.
+- Now, create a new folder named "face_samples" in the same folder or directory where other files of this project are saved
+- Now, you are all set to go..... 
+- RUN home.py file , a Tkinter screen will open
+- Enter details of criminals and test this app
+ **View my You Tube video to see how this app works -->**
+ > https://www.youtube.com/watch?v=4CA4DF00h5A
 
 ## Have a look at this project
 ***
