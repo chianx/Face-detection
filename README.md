@@ -73,7 +73,15 @@ The application will use OpenCV Technology to identify faces of criminals in the
 
 ## Have a look at this project
 ***
+![Screenshot 2022-06-03 025434](https://user-images.githubusercontent.com/69694356/171742603-96ba6dae-ad39-4d15-aaea-7d8f5cbf29b4.png)
 
+![Screenshot 2022-06-03 025647](https://user-images.githubusercontent.com/69694356/171742626-602709df-5515-4c7b-a535-e68b9ef03b37.png)
 
+![Screenshot 2022-06-03 025932](https://user-images.githubusercontent.com/69694356/171742636-d1eaad97-ae16-44e4-96d2-e572788d0d9f.png)
 
+![Screenshot 2022-06-03 025854](https://user-images.githubusercontent.com/69694356/171742689-c05e1adf-4f20-4f03-be45-c8a5c2ec38a3.png)
+
+![Screenshot_2022-06-03-03-01-59-58_0ce57feeccaa51fb7deed04b4dbda235](https://user-images.githubusercontent.com/69694356/171742791-ddbef86c-0436-4361-8348-7bac89ae817f.jpg)
+
+![Screenshot 2022-06-03 030115](https://user-images.githubusercontent.com/69694356/171742742-28c38b20-7726-4a45-bdac-b903754c7303.png)
 
