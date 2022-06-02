@@ -35,7 +35,23 @@ The application will use OpenCV Technology to identify faces of criminals in the
 - MySQL must be installed
 
 ### Now, follow the following steps
--
+- Download the project from github
+- Write the following commands in command prompt or trerminal of your choice
+ ```
+  pip install Pillow
+  pip install twilio
+  pip install pymysql
+  pip install opencv-python
+  pip install opencv-contrib-python
+  pip install tk
+```
+  *Make sure opencv-python and opencv-contrib-python have same versions, if not then download same versions otherwise the code will not work
+  *Make sure, you have all the other python libraries installed, if not, then install them using pip
+- Now, open MySQL Command Line, enter your password and write the following commands:
+```
+  create database criminaldb;
+  create
+```
 
 ## Have a look at this project
 ***
